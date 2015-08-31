@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved, required
 syntax on
+set noautoindent
 
 execute pathogen#infect()
 
@@ -22,7 +23,6 @@ set expandtab
 set listchars=tab:▸\ ,eol:¬
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
-
 " #2 /tabs-and-spaces/
 " Set tabstop, softtabstop and shiftwidth to the same value
 command! -nargs=* Stab call Stab()

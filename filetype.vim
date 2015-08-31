@@ -8,3 +8,6 @@ augroup filetypedetect
   autocmd BufReadPost *.txt setfiletype cmake
 augroup END
 
+au BufRead,BufNewFile *.srec set filetype=srecord
+au! Syntax srecord source $HOME/.vim/syntax/srecord.vim
+
